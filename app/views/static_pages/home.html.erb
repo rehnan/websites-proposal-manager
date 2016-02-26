@@ -1,0 +1,34 @@
+<div class="page-wrap gradient-primary">
+  <div class="container">
+    <div class="content">
+      <div class="panel" id="login">
+        <h3>Log in to your account</h3>
+        <form action="/login" method="post" role="form">
+          <input name="_csrf" type="hidden" value="Tco1QeVg8J3HsyEyjBeB5vm+1pJfxmZDvG9+n6sDkS4=">
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <div class="input-icon icon-username"></div>
+            <input autofocus="true" class="form-control" id="email" name="email" placeholder="Email address" tabindex="1" type="email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-icon icon-password">
+            </div>
+            <input autocomplete="off" class="form-control password" id="password" name="password" placeholder="Password" tabindex="2" type="password">
+          </div>
+          <button class="btn btn-primary btn-lg btn-block" name="commit" tabindex="3" type="submit" value="Log In">Log In</button>
+        </form>
+        <a class="panel-footer" href="/signup/login">Nova Conta &nbsp;<span>Sign Up</span></a>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="logo-sfdc">
+    <ul class="list-inline">
+     <li> <a href="https://www.facebook.com/rehnan.carolino" target="_blank"> <%= icon('facebook-square fa-3x', '', id: 'facebook-icon', class: 'strong') %> </a> </li>
+     <li> <a href="https://plus.google.com/u/0/105131695720441296528" target="_blank"> <%= icon('google-plus-square     fa-3x', '', id: 'google-icon', class: 'strong') %> </a> </li>
+     <li> <a href="https://www.linkedin.com/in/rehnan-carolino-b1275880" target="_blank"> <%= icon('linkedin-square     fa-3x', '', id: 'linkedin-icon', class: 'strong') %> </a> </li>
+     <li> <a href="https://github.com/rehnan" target="_blank"> <%= icon('github-square     fa-3x', '', id: 'github-icon', class: 'strong') %> </a> </li>
+ </ul>
+<font color="white"> Copyright &copy; 2015 - 2016 Rehnan Carolino </font>
+</footer>
